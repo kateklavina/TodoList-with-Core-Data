@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		09B781902387FB3B005D4D20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B7818F2387FB3B005D4D20 /* AppDelegate.swift */; };
 		09B781922387FB3B005D4D20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B781912387FB3B005D4D20 /* SceneDelegate.swift */; };
-		09B781942387FB3B005D4D20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B781932387FB3B005D4D20 /* ViewController.swift */; };
 		09B781972387FB3B005D4D20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B781952387FB3B005D4D20 /* Main.storyboard */; };
 		09B7819A2387FB3B005D4D20 /* TodoList_with_Core_Data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09B781982387FB3B005D4D20 /* TodoList_with_Core_Data.xcdatamodeld */; };
 		09B7819C2387FB3E005D4D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B7819B2387FB3E005D4D20 /* Assets.xcassets */; };
 		09B7819F2387FB3E005D4D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B7819D2387FB3E005D4D20 /* LaunchScreen.storyboard */; };
+		09B781AD23880F29005D4D20 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B781AC23880F29005D4D20 /* TodoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		09B7818C2387FB3B005D4D20 /* TodoList with Core Data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TodoList with Core Data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B7818F2387FB3B005D4D20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09B781912387FB3B005D4D20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		09B781932387FB3B005D4D20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		09B781962387FB3B005D4D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09B781992387FB3B005D4D20 /* TodoList_with_Core_Data.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodoList_with_Core_Data.xcdatamodel; sourceTree = "<group>"; };
 		09B7819B2387FB3E005D4D20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09B7819E2387FB3E005D4D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09B781A02387FB3E005D4D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B781AC23880F29005D4D20 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				09B7818F2387FB3B005D4D20 /* AppDelegate.swift */,
 				09B781912387FB3B005D4D20 /* SceneDelegate.swift */,
-				09B781932387FB3B005D4D20 /* ViewController.swift */,
+				09B781AC23880F29005D4D20 /* TodoViewController.swift */,
 				09B781952387FB3B005D4D20 /* Main.storyboard */,
 				09B7819B2387FB3E005D4D20 /* Assets.xcassets */,
 				09B7819D2387FB3E005D4D20 /* LaunchScreen.storyboard */,
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09B781942387FB3B005D4D20 /* ViewController.swift in Sources */,
+				09B781AD23880F29005D4D20 /* TodoViewController.swift in Sources */,
 				09B781902387FB3B005D4D20 /* AppDelegate.swift in Sources */,
 				09B7819A2387FB3B005D4D20 /* TodoList_with_Core_Data.xcdatamodeld in Sources */,
 				09B781922387FB3B005D4D20 /* SceneDelegate.swift in Sources */,
